@@ -1,14 +1,7 @@
-.website-container {
-    background-color: white;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    width: 100%;
-}
-
-.bg-img {
-    /* width: 100%; */
-    background-image: url('../images/m1.png');
-    height: 170px;
+.img {
+    width: 50%;
+    height: 175px;
+    background-image: url('../images/m.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
