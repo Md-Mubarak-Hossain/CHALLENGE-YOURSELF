@@ -1,0 +1,12 @@
+.btn-bg {
+    width: 42px;
+    height: 42px;
+
+    border-radius: 21px;
+    background-color: bisque;
+}
+
+.btn-bg:hover {
+
+    background-color: rgb(254, 162, 49);
+}
