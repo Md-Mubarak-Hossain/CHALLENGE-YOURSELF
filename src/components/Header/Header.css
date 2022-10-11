@@ -6,15 +6,20 @@
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    margin: p0;
 }
 
 .grid2 a {
     text-decoration: none;
     color: white;
-    font-weight: bolder;
-    font-size: larger;
+    font-weight: bold;
+    font-size: large;
     text-align: center;
 
+}
+
+.grid2 a:hover {
+    color: red;
 }
 
 .grid2 {

@@ -40,7 +40,8 @@ function App() {
       path: '*',
       element: <div><h4>Ops</h4></div>
 
-    }
+    },
+
   ]);
   return (
     <div className="App">
