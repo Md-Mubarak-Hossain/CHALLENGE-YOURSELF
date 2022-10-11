@@ -31,6 +31,7 @@ function App() {
         },
         {
           path: '/statchart',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <StatChart></StatChart>
         },
         {
