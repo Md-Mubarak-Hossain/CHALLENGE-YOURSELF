@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Blog from './components/Blog/Blog';
 import Home from './components/Home/Home';
 import Main from './components/Layout/Main';
+import Practices from './components/Practices/Practices';
 import StatChart from './components/StatChart/StatChart';
 import Topics from './components/Topics/Topics';
 
@@ -16,7 +17,13 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>
+        },
+        {
+          path: '/practices/:practicesId',
+          loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.practicesId}`),
+          element: <Practices></Practices>
         },
         {
           path: '/topics',
@@ -40,11 +47,11 @@ function App() {
       path: '*',
       element: <div><h4>Ops</h4></div>
 
-    },
+    }
 
   ]);
   return (
-    <div className="App">
+    <div>
       <RouterProvider router={router}></RouterProvider>
 
     </div>
