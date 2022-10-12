@@ -2,10 +2,10 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
-            <h4>Here is your favorite questions with answers</h4>
-            <div className='border rounded-2 bg-light'>
-                <h3>What is props of React Router? </h3>
+        <div className='bg-secondary p-5'>
+            <div className='p-3'> <h2 className='text-warning'>Here is your favorite questions with answers</h2></div>
+            <div className='border rounded-2 bg-light p-5 my-4'>
+                <h2 className='text-warning'>What is props of React Router? </h2>
                 <p className="text-start m-2 p-3">
                     'Router'
                     The common low-level interface for all router components. Typically apps will use one of the high-level routers instead:
@@ -21,8 +21,8 @@ const Blog = () => {
                     The second argument are the props to match against, they are identical to the matching props Route accepts. It could also be a string or an array of strings as shortcut for path.
                 </p>
             </div>
-            <div className='border rounded-2 bg-light'>
-                <h3>React context API: How it works?</h3>
+            <div className='border rounded-2 bg-light p-5 my-4'>
+                <h2 className='text-warning'>React context API: How it works?</h2>
                 <p>
                     The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.
                 </p>
@@ -32,8 +32,8 @@ const Blog = () => {
                 </p>
 
             </div>
-            <div className='border rounded-2 bg-light'>
-                <h3>What is useRef</h3>
+            <div className='border rounded-2 bg-light p-5 my-4'>
+                <h2 className='text-warning'>What is useRef</h2>
                 <p className="text-start p-3">
                     The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
                 </p>

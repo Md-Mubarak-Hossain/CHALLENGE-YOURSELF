@@ -10,8 +10,8 @@ const Topics = () => {
 
     console.log(data);
     return (
-        <div className='my-5'>
-            <h3>total topics:{data.length}</h3>
+        <div className='mb-5 bg-primary'>
+            <div className='bg-secondary text-center m-0 p-5'><h2 className='text-warning'>Hey! Here is Courses:{data.length}</h2></div>
             <div className='d-flex '>
                 {
                     data.map(topic => <Course

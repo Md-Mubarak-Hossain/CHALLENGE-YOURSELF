@@ -5,11 +5,10 @@ import Course from '../Course/Course';
 
 const Home = () => {
     const { data } = useLoaderData();
-
     console.log(data);
     return (
-        <div className='my-5'>
-            <div className='bg-secondary text-center my-0'><h2>Courses:{data.length}</h2></div>
+        <div className='mb-5 bg-primary'>
+            <div className='bg-secondary text-center m-0 p-5'><h2 className='text-warning'>Hey! Here is Courses:{data.length}</h2></div>
             <div className='d-flex '>
                 {
                     data.map(topic => <Course
