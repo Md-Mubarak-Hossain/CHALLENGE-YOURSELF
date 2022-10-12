@@ -47,7 +47,7 @@ function App() {
     },
     {
       path: '*',
-      element: <div><h4>Ops</h4></div>
+      element: <div><h1>Ops</h1><h2>404</h2><p>This page is note available</p></div>
 
     }
 
