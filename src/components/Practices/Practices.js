@@ -10,9 +10,10 @@ const Practices = () => {
     console.log(questions);
     console.log(id);
     return (
-        <div className='flex w-100 bg-secondary'>
+        <div className='d-flex flex-column justify-content-center align-items-center w-100 bg-secondary'>
             <img className='w-25' height={180} src={logo} alt={name} />
-            <h1 className='text-warning text-uppercase'>Wow!!! Here is {name}<img height={50} src={logo} alt={name} /> Quiz!!!</h1>
+            <h1 className='text-warning text-uppercase ms-1'>Wow!!! Here is {name}<img height={50} src={logo} alt={name} /> Quiz!!!</h1>
+
             <div>
                 {
                     questions.map(ques => <Quizes key={ques.id}

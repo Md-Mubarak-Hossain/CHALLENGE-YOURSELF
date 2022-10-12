@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Course from '../Course/Course';
-
+import './Topics.css'
 
 const Topics = () => {
 
@@ -12,7 +12,7 @@ const Topics = () => {
     return (
         <div className='mb-5 bg-primary'>
             <div className='bg-secondary text-center m-0 p-5'><h2 className='text-warning'>Hey! Here is Courses:{data.length}</h2></div>
-            <div className='d-flex '>
+            <div className='div'>
                 {
                     data.map(topic => <Course
                         key={topic.id}

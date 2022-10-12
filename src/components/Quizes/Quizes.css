@@ -10,3 +10,13 @@
 
     background-color: rgb(254, 162, 49);
 }
+
+@media only screen and (max-width: 769px) {
+    .width-mobile {
+        width: 100%;
+    }
+
+    .padding-mobile {
+        padding: 20px;
+    }
+}
