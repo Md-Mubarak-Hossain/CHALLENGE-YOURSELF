@@ -10,5 +10,6 @@
 ### CSS
 ### Git
 
-## Private repo:
+## Private repo:https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Md-Mubarak-Hossain
+https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Md-Mubarak-Hossain
 ## Website live:
