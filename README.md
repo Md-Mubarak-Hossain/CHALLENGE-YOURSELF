@@ -12,4 +12,5 @@
 
 ## Private repo:https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Md-Mubarak-Hossain
 https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Md-Mubarak-Hossain
-## Website live:
+## Website live:https://jazzy-churros-11f1e7.netlify.app/
+https://jazzy-churros-11f1e7.netlify.app/
