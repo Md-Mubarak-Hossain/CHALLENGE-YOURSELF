@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Course from '../Course/Course';
-import Topics from '../Topics/Topics';
+
 
 const Home = () => {
     const { data } = useLoaderData();
@@ -9,7 +9,7 @@ const Home = () => {
     console.log(data);
     return (
         <div className='my-5'>
-            <h3>total topics:{data.length}</h3>
+            <div className='bg-secondary text-center my-0'><h2>Courses:{data.length}</h2></div>
             <div className='d-flex '>
                 {
                     data.map(topic => <Course

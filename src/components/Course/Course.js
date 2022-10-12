@@ -5,11 +5,11 @@ const Course = ({ topic }) => {
     const { id, name, logo, } = topic;
     return (
         <div className='p-2'>
-            <div className='bg-light border rounded'>
+            <div className='bg-secondary border rounded'>
                 <img className='img-fluid' src={logo} alt={name} />
                 <div className='d-flex justify-content-between my-2 px-2'>
-                    <h5>{name}</h5>
-                    <Link to={`/practices/${id}`}> <button className='btn btn-primary btn-outline-danger py-0 text-white border-0 text-center'>practice</button></Link>
+                    <h5 className='text-light'>{name}</h5>
+                    <Link to={`/practices/${id}`}> <button className='btn btn-primary btn-outline-danger py-0 px-4 text-white border-0 text-center'>practice &rArr;</button></Link>
 
                 </div>
             </div>
